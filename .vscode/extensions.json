@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "johnsoncodehk.volar",
+    "antfu.vite",
+    "johnsoncodehk.vscode-typescript-vue-plugin",
+    "dbaeumer.vscode-eslint",
+    "voorjaar.windicss-intellisense",
+  ]
+}
