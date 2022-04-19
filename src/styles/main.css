@@ -67,6 +67,19 @@ p.button {
   clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
 }
 
+#text-2 {
+  clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
+}
+
+#phone2 {
+  position: absolute;
+  width: 28em;
+  overflow: hidden;
+  top: 75%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 /* Max Font Size */
 @media screen and (min-width:1920px) {
   body {
