@@ -18,6 +18,6 @@ const props = defineProps<{
     <p class="button" :class="props.color ? 'text-black' : 'text-white'">
       {{ text }}
     </p>
-    <Caret v-if="props.icon" />
+    <Caret v-if="props.icon" class="text-lg" />
   </a>
 </template>
