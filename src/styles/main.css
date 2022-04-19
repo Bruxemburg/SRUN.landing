@@ -16,9 +16,7 @@ body {
 }
 
 #app {
-  max-width: 1920px;
-  margin-left: auto;
-  margin-right: auto;
+
 }
 
 h1 {
@@ -43,6 +41,30 @@ p.button {
 
 #hero {
   height: calc( 100vh * 0.9185 );
+}
+
+.phone-img {
+  clip-path: polygon(0 0, 100% 0, 100% 40%, 0 40%);
+}
+
+#phone1 {
+  position: absolute;
+  width: 28em;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#phone1-1 {
+  position: absolute;
+  width: 27.25em;
+  top: 67%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#text-1 {
+  clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
 }
 
 /* Max Font Size */
