@@ -3,6 +3,7 @@ import App from './App.vue'
 
 import 'virtual:windi-base.css'
 import 'virtual:windi-components.css'
+import './styles/font.css'
 import './styles/main.css'
 import 'virtual:windi-utilities.css'
 

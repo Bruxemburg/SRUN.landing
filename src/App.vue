@@ -7,5 +7,5 @@ import Footer from './components/Footer.vue'
 <template>
   <Header />
   <Entry />
-  <Footer />
+  <!--<Footer />-->
 </template>

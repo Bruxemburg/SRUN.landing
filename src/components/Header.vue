@@ -1,5 +1,5 @@
 <script setup lang="ts">
-
+import ButtonPrimary from '~/components/ButtonPrimary.vue'
 </script>
 
 <template>
@@ -7,10 +7,6 @@
     <p class="uppercase">
       srun
     </p>
-    <div class="px-1.5em py-0.75em bg-blue rounded-full cursor-pointer">
-      <p class="button text-white">
-        Download app
-      </p>
-    </div>
+    <ButtonPrimary text="Download app" />
   </header>
 </template>

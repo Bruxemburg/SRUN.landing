@@ -1,5 +1,3 @@
-@import './font.css';
-
 *,
 *::before,
 *::after {
@@ -24,11 +22,11 @@ body {
 }
 
 h1 {
-  @apply text-2xl font-medium leading-normal tracking-normal;
+  @apply text-2xl font-medium leading-tight tracking-tight;
 }
 
 h2 {
-  @apply text-xl font-medium leading-normal tracking-normal;
+  @apply text-xl font-medium leading-tight tracking-normal;
 }
 
 h3 {
@@ -41,6 +39,10 @@ p {
 
 p.button {
   @apply text-base font-medium leading-normal tracking-normal;
+}
+
+#hero {
+  height: calc( 100vh * 0.9185 );
 }
 
 /* Max Font Size */

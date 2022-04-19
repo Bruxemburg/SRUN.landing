@@ -13,8 +13,9 @@ export default defineConfig({
         'base': '1.125em',
       },
       letterSpacing: {
-        normal: '-1.28px',
-        wide: '-0.64px',
+        tight: '-0.24rem',
+        normal: '-0.08rem',
+        wide: '-0.04rem',
       },
     },
   },
