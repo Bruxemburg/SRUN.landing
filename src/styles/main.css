@@ -1,0 +1,58 @@
+@import './font.css';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Euclid Circular A', ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.1111111111111112vw;
+
+  transition: color 0.5s, background-color 0.5s;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  @apply text-2xl font-medium leading-normal tracking-normal;
+}
+
+h2 {
+  @apply text-xl font-medium leading-normal tracking-normal;
+}
+
+h3 {
+  @apply text-lg font-medium leading-normal tracking-normal;
+}
+
+p {
+  @apply text-base font-medium leading-normal tracking-wide;
+}
+
+p.button {
+  @apply text-base font-medium leading-normal tracking-normal;
+}
+
+/* Max Font Size */
+@media screen and (min-width:1920px) {
+  body {
+    font-size: 21.333333333333332px;
+  }
+}
+
+/* Min Font Size */
+@media screen and (max-width:1260px) {
+  body {
+    font-size: 14px;
+  }
+}
