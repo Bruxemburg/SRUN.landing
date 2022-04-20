@@ -8,7 +8,7 @@ import SimpleCard from '~/components/SimpleCard.vue'
     <h1 class="text-center max-w-720px">
       What <span class="font-light">we are</span> trying to accomplish?
     </h1>
-    <div id="img-place-2" class="w-full my-4em overflow-hidden">
+    <div id="img-place-2" class="w-full my-4em overflow-hidden relative ">
       <video preload="true" autoplay loop muted class="absolute top-0 left-0 w-screen -z-1">
         <source src="/assets/imgs/pexels-mart-production-7252611.mp4" type="video/mp4">
       </video>

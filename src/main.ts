@@ -11,7 +11,7 @@ import 'virtual:windi-utilities.css'
 
 gsap.registerPlugin(ScrollTrigger)
 ScrollTrigger.defaults({
-  markers: true,
+  markers: false,
 })
 
 createApp(App).mount('#app')
