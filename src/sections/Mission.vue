@@ -8,8 +8,10 @@ import SimpleCard from '~/components/SimpleCard.vue'
     <h1 class="text-center max-w-720px">
       What <span class="font-light">we are</span> trying to accomplish?
     </h1>
-    <div id="img-place-2" class="w-full bg-gray-100 my-4em">
-      <img src="" alt="">
+    <div id="img-place-2" class="w-full my-4em overflow-hidden">
+      <video preload="true" autoplay loop muted class="absolute top-0 left-0 w-screen -z-1">
+        <source src="/assets/imgs/pexels-mart-production-7252611.mp4" type="video/mp4">
+      </video>
     </div>
     <div class="flex flex-col px-8.75em max-w-1920px mx-auto">
       <div class="flex flex-row px-4em items-baseline">

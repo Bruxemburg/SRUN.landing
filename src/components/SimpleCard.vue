@@ -10,8 +10,8 @@ import ButtonSecondary from './ButtonSecondary.vue'
       Sounds remarkable?
     </h2>
     <div class="flex flex-row items-center justify-center pt-2em">
-      <ButtonPrimary text="Download app" class="w-10em mr-1em" />
-      <ButtonSecondary text="Try web app" :color="true" class="w-10em" />
+      <ButtonPrimary text="Download app" class="w-max mr-1em" />
+      <ButtonSecondary text="Try web app" :color="true" class="w-max" />
     </div>
   </div>
 </template>
