@@ -71,6 +71,10 @@ p.button {
   clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
 }
 
+#text-3 {
+  clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
+}
+
 #phone2 {
   position: absolute;
   width: 28em;

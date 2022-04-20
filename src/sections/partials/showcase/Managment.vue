@@ -100,7 +100,7 @@ onMounted(() => {
     <img id="phone1-1" src="/assets/imgs/2.png" alt="Simply sort the alarms">
     <div class="second absolute top-150vh left-0 h-200vh" />
   </div>
-  <div class="h-235vh" />
+  <div class="h-250vh" />
   <h3 id="text-1" class="max-w-420px text-center text-gray-500 pt-7.5em mx-auto z-1">
     Since picking the right alarm can be annoying and challenging, we take care of everything instead of you
   </h3>
