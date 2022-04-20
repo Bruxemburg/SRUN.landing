@@ -4,7 +4,7 @@
 
 <template>
   <div class="py-7.5em bg-black -z-1">
-    <div class="max-w-1920px mx-auto relative text-white h-300vh px-10em">
+    <div class="max-w-1920px mx-auto relative text-white px-10em overflow-hidden">
       <h1 class="max-w-540px mr-0 ml-auto ">
         <span class="font-light">The legend of</span>
         SRUN.
@@ -22,6 +22,7 @@
       <p class="text-gray-400 max-w-540px mr-0 ml-auto pt-2.265em">
         The 'app' shall be accessed on any 'OS' thy elders said. It shall contain an 'alarm clock' with the 'gps' so that when the diseased gets closer to the bus stop it alarms thy. It shall also contain 'tips and tricks category' for thy sick souls seek providence in those.
       </p>
+      <!--<img src="/assets/imgs/timelapse.png" alt="Timelapse" class="absolute bottom-0 left-0 -z-2">-->
     </div>
   </div>
 </template>

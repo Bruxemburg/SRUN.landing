@@ -75,6 +75,10 @@ p.button {
   clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
 }
 
+#img-place-2 {
+  height: calc(100vh / 5 * 4);
+}
+
 #phone2 {
   position: absolute;
   width: 28em;

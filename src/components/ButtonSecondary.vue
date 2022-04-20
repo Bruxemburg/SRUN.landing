@@ -13,7 +13,7 @@ const props = defineProps<{
 
 <template>
   <a
-    class="px-1.5em py-0.75em rounded-full border cursor-pointer"
+    class="px-1.5em py-0.75em rounded-full border cursor-pointer flex justify-center items-center"
     :class="props.color ? 'border-black' : 'border-white'" href="#"
   >
     <p class="button" :class="props.color ? 'text-black' : 'text-white'">
